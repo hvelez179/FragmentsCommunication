@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BackgroundWork</string>
+    <string name="lbl_btn_main">FROM MAIN THREAD</string>
+    <string name="lbl_btn_handler">FROM HANDLER</string>
+    <string name="lbl_btn_thread">WITH THREAD</string>
+    <string name="lbl_btn_looper">WITH LOOPER</string>
+    <string name="lbl_background_work">Background Work!</string>
+    <string name="lbl_msg_reslut">Result is: %1$s</string>
+</resources>

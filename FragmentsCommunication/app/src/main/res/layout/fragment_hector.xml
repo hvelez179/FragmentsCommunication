@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#00F"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.fragmentscommunication.HectorFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:textColor="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hector Fragment " />
+
+    <Button
+        android:id="@+id/talk_tom_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hi Tom" />
+
+    <Button
+        android:id="@+id/talk_tom_bt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bye Tom"/>
+
+    <TextView
+        android:id="@+id/result_tv_hector"
+        android:textColor="#FFF"
+        android:text="Empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
